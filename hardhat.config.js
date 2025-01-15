@@ -9,10 +9,10 @@ require("hardhat-deploy")
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || ""
 const SEPOLIA_RPC_URL =
     process.env.SEPOLIA_RPC_URL ||
-    "https://eth-sepolia.g.alchemy.com/v2/XbWGDPUsUHvGRa-eG_3KgQjh2PNR6gDx"
+    "x"
 const PRIVATE_KEY =
     process.env.PRIVATE_KEY ||
-    "6be3448a1cc912c17d3285f925067cfd3c11eca6c4d96268bbfe07cb76ce39c6"
+    ""
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || ""
 module.exports = {
     defaultNetwork: "hardhat",
